@@ -9,6 +9,7 @@
 ![pyforest](https://img.shields.io/badge/Library-pyforest-red.svg)
 
 • This repository consists of files required to deploy a ___Machine Learning App___ created with ___Flask___ on ___Heroku___ platform.
+app: http://127.0.0.1:5000/
 
 ## Authors
 
