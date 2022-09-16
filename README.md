@@ -1,4 +1,4 @@
-# **Building A Big Mart Sales Prediction**
+# **Building And Deploying House Sale Forcast App**
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 ![HTML 4.01](https://img.shields.io/badge/HTML-4.01-skyblue.svg)
@@ -8,18 +8,11 @@
 ![flask](https://img.shields.io/badge/Library-flask-white.svg)
 ![pyforest](https://img.shields.io/badge/Library-pyforest-red.svg)
 
-• This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
-
-• If you want to view the deployed model, click on the following link:
-https://ipl-score-prediction-app458.herokuapp.com/
-
-• Please do ⭐ the repository, if it helped you in anyway.
-
+• This repository consists of files required to deploy a ___Machine Learning App___ created with ___Flask___ on ___Heroku___ platform.
 
 ## Authors
 
 - [@Akash Kumar Jha](https://github.com/Akash1070)
-
 
 ## Deployment
 
@@ -39,12 +32,12 @@ To install the libraries used in this project. Follow the
 below steps:
 
 ```bash
-from flask import Flask, render_template, request
-import pickle
 import numpy as np
-from sklearn.linear_model import LinearRegression
-import pandas as pd
+from flask import Flask, request, jsonify, render_template
 import pickle
+import matplotlib.pyplot as plt
+import pandas as pd
+import requests
 
 ```
     
@@ -55,19 +48,6 @@ To run tests, run the following command
 ```bash
   python app.py
 ```
-
-## Running Heroku Tests
-
-To run a Heroku deployment tests, click on the following link:
-
-[IPL First Innings Score Prediction App](https://ipl-score-prediction-app458.herokuapp.com/)
-## Demo
-
-[Click HERE To View App](http://localhost:8501/)
-
-## Preview
-![Click HERE To View](https://github.com/Akash1070/Covid-19-Dasboard-for-Berlin-City/blob/main/Preview.png)
-
 
 ## 🚀 About Me
 
